@@ -58,7 +58,7 @@
 
         android:id="@+id/edit_senha"
         style="@style/Edit_Text"
-        android:hint="@string/txtCadastro"
+        android:hint="@string/senha"
         android:drawableRight="@drawable/ic_eye"
         android:inputType="numberPassword"
         android:autoSizeTextType="uniform"
@@ -84,6 +84,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:indeterminateTint="@color/white"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

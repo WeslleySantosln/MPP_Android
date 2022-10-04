@@ -4,5 +4,6 @@
     <string name="txtCadastro">Criar nova conta</string>
     <string name="login">Insira Email ou Login</string>
     <string name="senha">Insira a senha</string>
+    <string name="titleCadastro">Cadastra-se</string>
 
 </resources>
