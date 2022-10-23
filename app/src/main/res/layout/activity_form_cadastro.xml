@@ -71,6 +71,7 @@
         />
     
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_Cadastrar"
         style="@style/Button"
         android:text="Cadastrar"
         android:layout_marginTop="30dp"
@@ -79,6 +80,20 @@
         app:layout_constraintEnd_toEndOf="parent"
 
         />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_Voltar"
+        style="@style/Button"
+        android:text="Voltar para tela de login"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/bt_Cadastrar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
